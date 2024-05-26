@@ -33,7 +33,7 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   int _rating = 1;
   bool _isSending = false;
-  String serverUrl = 'http://192.168.178.58:3000/rating';
+  String serverUrl = 'http://192.168.178.58:40081/rating';
 
   void _setRating(int rating) {
     setState(() {
